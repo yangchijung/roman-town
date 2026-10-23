@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Roma Aeterna AD 128 Procedural Chunk Exporter (glTF 2.0 + KTX2 Ready)",
+    "copyright": "CC0 / 100% Original Procedural Asset (AD 128 Historical Reconstruction)"
+  },
+  "extras": {
+    "chunkId": "chunk_x001_z003",
+    "chunkOriginMeters": [
+      128.0,
+      0.0,
+      384.0
+    ],
+    "chunkSizeMeters": 128.0,
+    "description": "Palatium (Domus Flavia/Augustana) & Circus Maximus",
+    "ktx2TextureSupport": true
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "chunk_x001_z003",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "chunk_x001_z003_root",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chunk_x001_z003_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 792,
+      "uri": "data:application/octet-stream;base64,AAAAQ+/BE0IAAMBDAAAgQx9GE0IAAMBDAABAQy/4DkIAAMBDAABgQ8cZB0IAAMBDAACAQ0Z4+EEAAMBDAAAAQ8At90EAANBDAAAgQ/5Z9kEAANBDAABAQ60K70EAANBDAABgQ/Dn4UEAANBDAACAQ4oz0EEAANBDAAAAQ+j3yEEAAOBDAAAgQ11VyEEAAOBDAABAQ9HAwkEAAOBDAABgQzfcuEEAAOBDAACAQ1N0skEAAOBDAAAAQ2pEokEAAPBDAAAgQwLVoUEAAPBDAABAQ08GnkEAAPBDAABgQ2lOqkEAAPBDAACAQ3NAu0EAAPBDAAAAQ67fhUEAAABEAAAgQzljkUEAAABEAABAQ40Un0EAAABEAABgQxXnrkEAAABEAACAQwSuwEEAAABEAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAFAAEAAQAFAAYAAQAGAAIAAgAGAAcAAgAHAAMAAwAHAAgAAwAIAAQABAAIAAkABQAKAAYABgAKAAsABgALAAcABwALAAwABwAMAAgACAAMAA0ACAANAAkACQANAA4ACgAPAAsACwAPABAACwAQAAwADAAQABEADAARAA0ADQARABIADQASAA4ADgASABMADwAUABAAEAAUABUAEAAVABEAEQAVABYAEQAWABIAEgAWABcAEgAXABMAEwAXABgA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 300,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3",
+      "min": [
+        128.0,
+        16.734218140504776,
+        384.0
+      ],
+      "max": [
+        256.0,
+        36.939387946734975,
+        512.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ]
+}

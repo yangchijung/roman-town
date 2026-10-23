@@ -1,0 +1,278 @@
+{
+  "format": "RomaAeterna_RecastNavMesh_v1",
+  "chunkId": "chunk_x-004_z-005",
+  "agentHeightM": 1.65,
+  "agentRadiusM": 0.35,
+  "agentMaxClimbM": 0.45,
+  "agentMaxSlopeDeg": 42.0,
+  "boundsMin": [
+    -512.0,
+    0.0,
+    -640.0
+  ],
+  "boundsMax": [
+    -384.0,
+    85.0,
+    -512.0
+  ],
+  "walkableNodes": [
+    {
+      "nodeId": 0,
+      "pos": [
+        -496.0,
+        13.29,
+        -624.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 1,
+      "pos": [
+        -464.0,
+        13.26,
+        -624.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 2,
+      "pos": [
+        -432.0,
+        13.22,
+        -624.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 3,
+      "pos": [
+        -400.0,
+        13.23,
+        -624.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 4,
+      "pos": [
+        -496.0,
+        13.27,
+        -592.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 5,
+      "pos": [
+        -464.0,
+        13.23,
+        -592.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 6,
+      "pos": [
+        -432.0,
+        13.19,
+        -592.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 7,
+      "pos": [
+        -400.0,
+        13.15,
+        -592.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 8,
+      "pos": [
+        -496.0,
+        13.24,
+        -560.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 9,
+      "pos": [
+        -464.0,
+        13.2,
+        -560.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 10,
+      "pos": [
+        -432.0,
+        13.17,
+        -560.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 11,
+      "pos": [
+        -400.0,
+        13.13,
+        -560.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 12,
+      "pos": [
+        -496.0,
+        13.22,
+        -528.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 13,
+      "pos": [
+        -464.0,
+        13.18,
+        -528.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 14,
+      "pos": [
+        -432.0,
+        13.14,
+        -528.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    },
+    {
+      "nodeId": 15,
+      "pos": [
+        -400.0,
+        13.1,
+        -528.0
+      ],
+      "walkable": true,
+      "cost": 1.0
+    }
+  ],
+  "walkableEdges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      14,
+      15
+    ]
+  ]
+}

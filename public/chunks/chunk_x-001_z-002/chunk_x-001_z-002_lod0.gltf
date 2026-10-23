@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Roma Aeterna AD 128 Procedural Chunk Exporter (glTF 2.0 + KTX2 Ready)",
+    "copyright": "CC0 / 100% Original Procedural Asset (AD 128 Historical Reconstruction)"
+  },
+  "extras": {
+    "chunkId": "chunk_x-001_z-002",
+    "chunkOriginMeters": [
+      -128.0,
+      0.0,
+      -256.0
+    ],
+    "chunkSizeMeters": 128.0,
+    "description": "Forum Traiani, Basilica Ulpia & Mercatus Traiani",
+    "ktx2TextureSupport": true
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "chunk_x-001_z-002",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "chunk_x-001_z-002_root",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chunk_x-001_z-002_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 792,
+      "uri": "data:application/octet-stream;base64,AAAAw+jyJUIAAIDDAADAwrltKUIAAIDDAACAwtSk/UEAAIDDAAAAwm7fzkEAAIDDAAAAAJGmtkEAAIDDAAAAwwWtOkIAAGDDAADAwsJdDEIAAGDDAACAwi7fvUEAAGDDAAAAwm1dnEEAAGDDAAAAAE8Fn0EAAGDDAAAAw9tZPUIAAEDDAADAwmm560EAAEDDAACAwnhgkUEAAEDDAAAAwmx+bkEAAEDDAAAAAOMIiUEAAEDDAAAAwzEvNUIAACDDAADAwhW/5UEAACDDAACAwi1GjkEAACDDAAAAwi1ga0EAACDDAAAAABrThUEAACDDAAAAwywoIEIAAADDAADAwiwv90EAAADDAACAwiguq0EAAADDAAAAwgAfj0EAAADDAAAAAAdxj0EAAADDAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAFAAEAAQAFAAYAAQAGAAIAAgAGAAcAAgAHAAMAAwAHAAgAAwAIAAQABAAIAAkABQAKAAYABgAKAAsABgALAAcABwALAAwABwAMAAgACAAMAA0ACAANAAkACQANAA4ACgAPAAsACwAPABAACwAQAAwADAAQABEADAARAA0ADQARABIADQASAA4ADgASABMADwAUABAAEAAUABUAEAAVABEAEQAVABYAEQAWABIAEgAWABcAEgAXABMAEwAXABgA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 300,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3",
+      "min": [
+        -128.0,
+        14.710980013352,
+        -256.0
+      ],
+      "max": [
+        0.0,
+        47.3377508725631,
+        -128.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ]
+}

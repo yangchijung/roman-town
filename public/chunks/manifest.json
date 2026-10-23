@@ -1,0 +1,70 @@
+{
+  "chunks": [
+    {
+      "chunkId": "chunk_x000_z000",
+      "description": "Forum Romanum Core (Rostra, Basilica Julia, Aedes Saturni)",
+      "gltfFile": "chunks/chunk_x000_z000/chunk_x000_z000_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x000_z000/chunk_x000_z000_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x000_z000/chunk_x000_z000_navmesh.bin",
+      "hooksFile": "chunks/chunk_x000_z000/chunk_x000_z000_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    },
+    {
+      "chunkId": "chunk_x-001_z-002",
+      "description": "Forum Traiani, Basilica Ulpia & Mercatus Traiani",
+      "gltfFile": "chunks/chunk_x-001_z-002/chunk_x-001_z-002_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x-001_z-002/chunk_x-001_z-002_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x-001_z-002/chunk_x-001_z-002_navmesh.bin",
+      "hooksFile": "chunks/chunk_x-001_z-002/chunk_x-001_z-002_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    },
+    {
+      "chunkId": "chunk_x004_z000",
+      "description": "Amphitheatrum Flavium (Colosseum) & Meta Sudans",
+      "gltfFile": "chunks/chunk_x004_z000/chunk_x004_z000_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x004_z000/chunk_x004_z000_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x004_z000/chunk_x004_z000_navmesh.bin",
+      "hooksFile": "chunks/chunk_x004_z000/chunk_x004_z000_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    },
+    {
+      "chunkId": "chunk_x-004_z-005",
+      "description": "Pantheon Hadriani & Thermae Agrippae (Campus Martius)",
+      "gltfFile": "chunks/chunk_x-004_z-005/chunk_x-004_z-005_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x-004_z-005/chunk_x-004_z-005_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x-004_z-005/chunk_x-004_z-005_navmesh.bin",
+      "hooksFile": "chunks/chunk_x-004_z-005/chunk_x-004_z-005_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    },
+    {
+      "chunkId": "chunk_x001_z003",
+      "description": "Palatium (Domus Flavia/Augustana) & Circus Maximus",
+      "gltfFile": "chunks/chunk_x001_z003/chunk_x001_z003_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x001_z003/chunk_x001_z003_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x001_z003/chunk_x001_z003_navmesh.bin",
+      "hooksFile": "chunks/chunk_x001_z003/chunk_x001_z003_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    },
+    {
+      "chunkId": "chunk_x-005_z008",
+      "description": "Emporium River Port, Porticus Aemilia & Horrea Galbae",
+      "gltfFile": "chunks/chunk_x-005_z008/chunk_x-005_z008_lod0.gltf",
+      "navmeshJsonFile": "chunks/chunk_x-005_z008/chunk_x-005_z008_navmesh.json",
+      "navmeshBinFile": "chunks/chunk_x-005_z008/chunk_x-005_z008_navmesh.bin",
+      "hooksFile": "chunks/chunk_x-005_z008/chunk_x-005_z008_hooks.json",
+      "vertexCount": 25,
+      "triangleCount": 32,
+      "navNodeCount": 16
+    }
+  ]
+}

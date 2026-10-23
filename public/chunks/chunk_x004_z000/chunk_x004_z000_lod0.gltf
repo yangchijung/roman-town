@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Roma Aeterna AD 128 Procedural Chunk Exporter (glTF 2.0 + KTX2 Ready)",
+    "copyright": "CC0 / 100% Original Procedural Asset (AD 128 Historical Reconstruction)"
+  },
+  "extras": {
+    "chunkId": "chunk_x004_z000",
+    "chunkOriginMeters": [
+      512.0,
+      0.0,
+      0.0
+    ],
+    "chunkSizeMeters": 128.0,
+    "description": "Amphitheatrum Flavium (Colosseum) & Meta Sudans",
+    "ktx2TextureSupport": true
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "chunk_x004_z000",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "chunk_x004_z000_root",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chunk_x004_z000_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 792,
+      "uri": "data:application/octet-stream;base64,AAAARA8LNUIAAAAAAAAIRDUXPkIAAAAAAAAQRIhtRUIAAAAAAAAYRJUES0IAAAAAAAAgRNXyTkIAAAAAAAAARNGTL0IAAABCAAAIRBy/OEIAAABCAAAQRD9WQEIAAABCAAAYRCxKRkIAAABCAAAgRFuoSkIAAABCAAAARCj9JkIAAIBCAAAIRJIvMEIAAIBCAAAQRGr5N0IAAIBCAAAYRBNCPkIAAIBCAAAgRJgIQ0IAAIBCAAAARCp9G0IAAMBCAAAIRIp9JEIAAMBCAAAQRE5GLEIAAMBCAAAYRE20MkIAAMBCAAAgRGu3N0IAAMBCAAAARLCaDUIAAABDAAAIRMUaFkIAAABDAAAQRPqWHUIAAABDAAAYRKHjI0IAAABDAAAgRDPkKEIAAABDAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAFAAEAAQAFAAYAAQAGAAIAAgAGAAcAAgAHAAMAAwAHAAgAAwAIAAQABAAIAAkABQAKAAYABgAKAAsABgALAAcABwALAAwABwAMAAgACAAMAA0ACAANAAkACQANAA4ACgAPAAsACwAPABAACwAQAAwADAAQABEADAARAA0ADQARABIADQASAA4ADgASABMADwAUABAAEAAUABUAEAAVABEAEQAVABYAEQAWABIAEgAWABcAEgAXABMAEwAXABgA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 300,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3",
+      "min": [
+        512.0,
+        35.40106141599236,
+        0.0
+      ],
+      "max": [
+        640.0,
+        51.737140486116445,
+        128.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ]
+}

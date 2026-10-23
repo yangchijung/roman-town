@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Roma Aeterna AD 128 Procedural Chunk Exporter (glTF 2.0 + KTX2 Ready)",
+    "copyright": "CC0 / 100% Original Procedural Asset (AD 128 Historical Reconstruction)"
+  },
+  "extras": {
+    "chunkId": "chunk_x-004_z-005",
+    "chunkOriginMeters": [
+      -512.0,
+      0.0,
+      -640.0
+    ],
+    "chunkSizeMeters": 128.0,
+    "description": "Pantheon Hadriani & Thermae Agrippae (Campus Martius)",
+    "ktx2TextureSupport": true
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "chunk_x-004_z-005",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "chunk_x-004_z-005_root",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chunk_x-004_z-005_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 792,
+      "uri": "data:application/octet-stream;base64,AAAAxO84VUEAACDEAADww6abVEEAACDEAADgw13+U0EAACDEAADQwxZNVEEAACDEAADAw4TYWUEAACDEAAAAxBTQVEEAABjEAADww8oyVEEAABjEAADgw4GVU0EAABjEAADQwzj4UkEAABjEAADAw5vGUkEAABjEAAAAxDhnVEEAABDEAADww+/JU0EAABDEAADgw6UsU0EAABDEAADQw1yPUkEAABDEAADAwxPyUUEAABDEAAAAxF3+U0EAAAjEAADwwxNhU0EAAAjEAADgw8rDUkEAAAjEAADQw4EmUkEAAAjEAADAwzeJUUEAAAjEAAAAxIGVU0EAAADEAADwwzj4UkEAAADEAADgw+5aUkEAAADEAADQw6W9UUEAAADEAADAw1wgUUEAAADEAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAFAAEAAQAFAAYAAQAGAAIAAgAGAAcAAgAHAAMAAwAHAAgAAwAIAAQABAAIAAkABQAKAAYABgAKAAsABgALAAcABwALAAwABwAMAAgACAAMAA0ACAANAAkACQANAA4ACgAPAAsACwAPABAACwAQAAwADAAQABEADAARAA0ADQARABIADQASAA4ADgASABMADwAUABAAEAAUABUAEAAVABEAEQAVABYAEQAWABIAEgAWABcAEgAXABMAEwAXABgA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 300,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3",
+      "min": [
+        -512.0,
+        13.0704,
+        -640.0
+      ],
+      "max": [
+        -384.0,
+        13.615360401353268,
+        -512.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ]
+}

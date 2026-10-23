@@ -1,0 +1,36 @@
+{
+  "chunkId": "chunk_x000_z000",
+  "eventsSupported": [
+    "onEnterRegion",
+    "onInteract",
+    "onTimeOfDay",
+    "onWeatherChange",
+    "onCredibilityModeToggle",
+    "onInteriorTransition"
+  ],
+  "spawnPoints": [
+    [
+      64.0,
+      37.38,
+      64.0
+    ]
+  ],
+  "interactables": [
+    {
+      "hookId": "hook.chunk_x000_z000.fountain",
+      "type": "fountain_lacus",
+      "activeHours": [
+        0,
+        24
+      ]
+    },
+    {
+      "hookId": "hook.chunk_x000_z000.taberna",
+      "type": "market_stall",
+      "activeHours": [
+        6,
+        19
+      ]
+    }
+  ]
+}

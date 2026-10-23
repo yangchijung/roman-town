@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Roma Aeterna AD 128 Procedural Chunk Exporter (glTF 2.0 + KTX2 Ready)",
+    "copyright": "CC0 / 100% Original Procedural Asset (AD 128 Historical Reconstruction)"
+  },
+  "extras": {
+    "chunkId": "chunk_x-005_z008",
+    "chunkOriginMeters": [
+      -640.0,
+      0.0,
+      1024.0
+    ],
+    "chunkSizeMeters": 128.0,
+    "description": "Emporium River Port, Porticus Aemilia & Horrea Galbae",
+    "ktx2TextureSupport": true
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "chunk_x-005_z008",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "chunk_x-005_z008_root",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "chunk_x-005_z008_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 792,
+      "uri": "data:application/octet-stream;base64,AAAgxKlmTkAAAIBEAAAYxImhnEAAAIBEAAAQxDf6lkEAAIBEAAAIxFdQqEEAAIBEAAAAxMbxu0EAAIBEAAAgxB6cYUAAAIREAAAYxFULxEAAAIREAAAQxOhSj0EAAIREAAAIxFqbnkEAAIREAAAAxJMZsEEAAIREAAAgxKUhhUAAAIhEAAAYxK16eUEAAIhEAAAQxE+Ih0EAAIhEAAAIxNudlEEAAIhEAAAAxKjEo0EAAIhEAAAgxCcApEAAAIxEAAAYxFBYbkEAAIxEAAAQxGsEgEEAAIxEAAAIxATeikEAAIxEAAAAxA6Wl0EAAIxEAAAgxIR/WUEAAJBEAAAYxBBCZEEAAJBEAAAQxC1BckEAAJBEAAAIxJ7RgUEAAJBEAAAAxAAjjEEAAJBEAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAFAAEAAQAFAAYAAQAGAAIAAgAGAAcAAgAHAAMAAwAHAAgAAwAIAAQABAAIAAkABQAKAAYABgAKAAsABgALAAcABwALAAwABwAMAAgACAAMAA0ACAANAAkACQANAA4ACgAPAAsACwAPABAACwAQAAwADAAQABEADAARAA0ADQARABIADQASAA4ADgASABMADwAUABAAEAAUABUAEAAVABEAEQAVABYAEQAWABIAEgAWABcAEgAXABMAEwAXABgA"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 300,
+      "byteLength": 300,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 192,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3",
+      "min": [
+        -640.0,
+        3.2250159354392114,
+        1024.0
+      ],
+      "max": [
+        -512.0,
+        23.493052850693765,
+        1152.0
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 25,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 96,
+      "type": "SCALAR"
+    }
+  ]
+}
