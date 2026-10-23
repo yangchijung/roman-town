@@ -825,7 +825,7 @@ p6_html_template = """<!DOCTYPE html>
         const uVerts = [];
         for (const b of DATA.urbanBuildings) {
           const [bx, by, bz] = b.pos;
-          if (-175 <= bx <= 440 and -400 <= bz <= 85) continue;
+          if (bx >= -175 && bx <= 440 && bz >= -400 && bz <= 85) continue;
           const [bl, bh, bw] = b.dims;
           const cred = b.credibility === 'A' ? 1.0 : (b.credibility === 'B' ? 2.0 : 3.0);
           // Ground floor stone/brick arcade base
