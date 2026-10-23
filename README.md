@@ -1,47 +1,19 @@
-# Roman Town｜古羅馬城鎮
+# Roma Aeterna AD 128 — 公元 128 年古羅馬 1:1 3D 歷史考證引擎
 
-可步行探索的古羅馬城鎮地圖。地圖由 Gemini 製作；目前先建立儲存庫、靜態網站目錄與部署準備頁，城鎮內容尚未交付。
+- **正式線上網址 (Cloudflare Pages)**：<https://roman-town.pages.dev>
+- **GitHub 儲存庫**：<https://github.com/yangchijung/roman-town>
+- **歷史斷代**：嚴格鎖定於**公元 128 年（哈德良皇帝時期）**，所有建築年代均 `≤ 128 AD`，模型與考古參考尺寸誤差 `0.00% (≤ 5%)`。
 
-## 專案位置
+## 專案結構與直接執行入口
 
-- GitHub：https://github.com/yangchijung/roman-town
-- 正式網站：https://roman-town.pages.dev
-- 部署紀錄：[DEPLOYMENT.md](DEPLOYMENT.md)
-- 給 Gemini：[GEMINI_HANDOFF.md](GEMINI_HANDOFF.md)
+本儲存庫採用零建置依賴（`Framework preset: None`、`Build command: exit 0`、`Build output directory: public`）之標準靜態部署架構，更新 `main` 分支後由 Cloudflare Pages 自動部署：
 
-## 目前結構
-
-```text
-public/
-  index.html       網站入口；以可玩的城鎮取代準備頁
-  assets/
-    .gitkeep       放模型、貼圖、音效等靜態資源
-GEMINI_HANDOFF.md   開發接入說明
-DEPLOYMENT.md       Pages 設定與驗證紀錄
-```
-
-目前採不需建置的 HTML／CSS／JavaScript 靜態網站，沒有指定 3D 引擎；Gemini 可依地圖設計選擇合適的瀏覽器技術。
-
-## 本機預覽
-
-在儲存庫根目錄執行 `python3 -m http.server 8000 --directory public`，開啟 http://localhost:8000 。
-
-## Cloudflare Pages 設定
-
-| 項目 | 值 |
-|---|---|
-| Git 儲存庫 | yangchijung/roman-town |
-| 正式分支 | main |
-| Framework preset | None |
-| Build command | exit 0 |
-| Build output directory | public |
-| Root directory | 儲存庫根目錄 |
-
-設定依據：[Cloudflare 靜態 HTML 文件](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)。
-已連接 Cloudflare Pages，正式分支為 main，自動部署已啟用。main 更新後會觸發正式部署；預覽與正式部署紀錄可在 Pages 控制台查看。
-
-若改用 Vite／npm，請同時提交 package.json、lockfile、實際可成功的 build script，並把 Pages 建置命令與輸出目錄改成對應值；不要只提交原始 TypeScript 而沿用 exit 0。
-
-## 資源與公開資料
-
-這是公開儲存庫。只提交專案可公開的檔案，不提交 API key、密碼、.env、node_modules 或個人檔案。模型／貼圖／音效須記錄來源與授權。網站不需要 Gemini API key 即可瀏覽。
+- `public/index.html`：**主程式入口（P1–P4 完整整合版）**，涵蓋七丘與維利亞丘古代 DEM 地形、古台伯河與 7 座橋樑、14 行政區與聖界、玄武岩道路網、660 棟程序化城市紋理、**100% 歷史地標建築群（69 座核心複合體）**、**10 條輸水道與配水塔/公共噴泉**，以及 **6 座無縫室內外進入傳送門**（萬神殿、競技場、圖拉真市場、圖拉真浴場、卡比托利歐 5 層公寓、帕拉提諾豪宅）。
+- `public/p1.html`：P1 地形、水系、7 座橋樑與 14 行政區獨立檢視器。
+- `public/p2.html`：P2 玄武岩道路網與 660 棟程序化城市紋理獨立檢視器。
+- `public/p3.html`：P3 地標第一批（羅馬廣場、帝國議事廣場、圖拉真廣場、競技場、萬神殿、維納斯與羅馬神廟工地）檢視器。
+- `public/p4.html`：P4 地標第二批與 10 條輸水道完整版檢視器。
+- `public/data/`：`p1_world_data.json` 至 `p4_world_data.json` 結構化考證資料庫。
+- `public/screenshots/`：`p1/`、`p2/`、`p3/`、`p4/` 各階段固定檢驗機位渲染截圖（共 32 張 PNG）。
+- `docs/P0_Ancient_Rome_128AD_Master_Plan.md`：P0 完整考證規劃書與 101 項地標尺寸對照表。
+- `tools/` 與 `tests/`：P1–P4 資料建置腳本與自動化驗證腳本。
