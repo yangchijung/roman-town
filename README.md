@@ -5,7 +5,8 @@
 ## 專案位置
 
 - GitHub：https://github.com/yangchijung/roman-town
-- 網站與部署狀態：完成 Cloudflare Pages 首次部署後記錄於 [DEPLOYMENT.md](DEPLOYMENT.md)
+- 正式網站：https://roman-town.pages.dev
+- 部署紀錄：[DEPLOYMENT.md](DEPLOYMENT.md)
 - 給 Gemini：[GEMINI_HANDOFF.md](GEMINI_HANDOFF.md)
 
 ## 目前結構
@@ -37,7 +38,7 @@ DEPLOYMENT.md       Pages 設定與驗證紀錄
 | Root directory | 儲存庫根目錄 |
 
 設定依據：[Cloudflare 靜態 HTML 文件](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)。
-Git 連接完成後，main 提交用於正式部署，其他分支可用預覽；請以 [DEPLOYMENT.md](DEPLOYMENT.md) 的實際驗證狀態為準。
+已連接 Cloudflare Pages，正式分支為 main，自動部署已啟用。main 更新後會觸發正式部署；預覽與正式部署紀錄可在 Pages 控制台查看。
 
 若改用 Vite／npm，請同時提交 package.json、lockfile、實際可成功的 build script，並把 Pages 建置命令與輸出目錄改成對應值；不要只提交原始 TypeScript 而沿用 exit 0。
 
